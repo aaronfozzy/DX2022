@@ -1,0 +1,46 @@
+<body>
+	<section class="background gold-border expect-row-1 padding">
+		<h1 class="center white">{{ label }}</h1>
+	</section>
+
+	<section class="expect-row-2 padding">
+		<div class="inner inner-700">
+			<h2 class="center">{{ content.field_section_2_head.0 }}</h2>
+			<p class="center margin-bottom">{{ content.field_section_2_para.0 }}</p>
+		</div>
+		{{ drupal_view('accordion_boxes', 'block_1') }}
+		<div class="flex-mob a-center jc-center buttons">
+			{{ content.field_section_2_li.0 }}
+		</div>
+		<div class="inner inner-700">
+			<h2 class="center">{{ content.field_section_2_heading.0 }}</h2>
+			<p class="center">{{ content.field_section_2_paragraph_2.0 }}</p>	
+		</div>
+	</section>
+
+	<section class="background expect-row-3 padding">
+{{ drupal_view('case_studies', 'block_1') }}
+	</section>
+
+	<section class="expect-row-4 padding">
+		<div class="flex-mob a-center jc-center">
+			{{ content.field_section_4_link.0 }}
+		</div>
+	</section>
+
+	<section class="background brown expect-row-5 grey-top padding">
+			<div class="inner inner-700">
+				<h2 class="center white">{{ content.field_section_5_he.0 }}</h2>
+				<p class="center white">{{ content.field_section_5_para.0 }}</p>
+			</div>
+		<div class="flex-mob a-center jc-center">
+			{{ content.field_section_5_link.0 }}
+		</div>
+	</section>
+
+	<div class="canvas grey-top grey-bottom"> 
+		{{ content.field_canvas.0 }}
+	</div>
+
+	
+</body>

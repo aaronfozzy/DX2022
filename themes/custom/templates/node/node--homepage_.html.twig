@@ -1,0 +1,76 @@
+<body>
+	<section class="background homepage-row-1 padding">
+		<div class="inner inner-660">
+			<h1 class="center white">{{ label }}</h1>
+			 <div class="owl-carousel owl-theme">
+     <div class="item">
+     		<p class="large center white"> {{ content.field_owl_carousel_quotes_.0 }} </p>
+     </div>
+     <div class="item">
+     		<p class="large center white"> {{ content.field_owl_carousel_quotes_.1 }} </p>
+     </div>
+     <div class="item">
+     		<p class="large center white"> {{ content.field_owl_carousel_quotes_.2 }} </p>
+     </div>
+     <div class="item">
+     		<p class="large center white"> {{ content.field_owl_carousel_quotes_.3 }} </p>
+     </div>
+ </div>
+		</div>
+	</section>
+
+	<section class="homepage-row-2 padding">
+		<div class="inner inner-700">
+			<img class="center small-logo" src="/base_html/www/images/small-logo.svg" alt="DX Digital"></i>
+			<h2 class="center">{{ content.field_section_2_heading.0 }}</h2>
+			<p class="center">{{ content.field_section_2_para.0 }}</p> 
+			<div class="flex-mob a-center jc-center">
+					{{ content.field_section_2_li.0 }}
+			</div>
+		</div>
+	</section>
+
+	<section class="background brown homepage-row-3 padding tag">
+		<div class="inner inner-700">
+			<h2 class="center white">{{ content.field_section_3_he.0 }}</h2>
+			<h4 class="center white">{{ content.field_section_3_small_heading_.0 }}</h4>
+			<p class="center white">{{ content.field_section_3_para.0 }}</p>
+			<div class="flex-mob a-center jc-center">
+					{{ content.field_section_3_link.0 }}
+			</div>
+		</div>
+	</section>
+
+	<section class="homepage-row-4 padding tag">
+		<div class="inner inner-700">
+			<h2 class="center">	{{ content.field_section_4_heading.0 }}</h2>
+			<p class="center">{{ content.field_section_4_para.0 }}</p>
+		</div>
+	</section>
+
+	<section class="background homepage-row-5 padding tag">
+		{{ drupal_view('case_studies', 'block_1') }}
+	</section>
+
+	<section class="homepage-row-6 padding tag">
+		<div class="flex-mob a-center jc-center">
+			{{ content.field_section_6_li.0 }}
+		</div>
+	</section>
+
+		<section class="background brown homepage-row-7 grey-top padding tag">
+			<div class="inner inner-700">
+				<h2 class="center white">{{ content.field_section_6_.0 }}</h2>
+				<p class="center white">{{ content.field_section_6_pa.0 }}</p>
+			</div>
+			<div class="flex-mob a-center jc-center">
+					{{ content.field_section_6_link.0 }}
+		</div>
+	</section>
+
+		<div class="canvas grey-top grey-bottom tag homepage-row-8"> 
+			{{ content.field_canvas.0 }}
+		</div>
+
+		
+</body>

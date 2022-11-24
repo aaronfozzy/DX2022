@@ -1,0 +1,44 @@
+<body>
+	
+	<section class="background clients-row-1 padding">
+		<h1 class="center white">{{ label}}</h1>
+	</section>
+
+	<section class="clients-row-2 padding">
+		<div class="inner inner-700">
+			<h2 class="center">{{ content.field_section_1_.0}}</h2>
+			<p class="center margin-bottom">{{ content.field_section_1_paragraph.0}}</p>
+		</div>
+	</section>
+
+
+	<section class="clients-row-3 background padding">
+		{{ drupal_view('case_studies_overview', 'block_1') }}
+	</section>
+
+	<section class="clients-row-4 padding">
+		<div class="flex-mob a-center jc-center">
+			{{ content.field_section_3_link.0 }}
+		</div>
+		<div class="inner inner-700">
+			<h2 class="center">{{ content.field_section_3_he.0 }}</h2>
+			<p class="center">{{ content.field_section_3_para.0 }}</p>
+		</div>
+	</section>
+
+	<section class="background brown clients-row-5 padding">
+		<div class="inner inner-700">
+			<h2 class="center white">{{ content.field_section_4_heading.0 }}</h2>
+			<p class="center white">{{ content.field_section_4_para.0 }}</p>
+		</div>
+		<div class="flex-mob a-center jc-center">
+			{{ content.field_section_4_link.0 }}
+		</div>
+	</section>
+
+	<div class="canvas grey-top grey-bottom"> 
+		{{ content.field_canvas.0 }}
+	</div>
+
+
+</body>
